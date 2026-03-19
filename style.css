@@ -1,0 +1,16 @@
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+}
+
+form > span {
+  opacity: .7;
+}
+
+a {
+  color: inherit;
+}
+
+form > input {
+  max-width: 100%;
+}
