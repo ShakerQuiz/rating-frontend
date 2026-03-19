@@ -417,7 +417,7 @@ export class AppRoot extends LitElement {
       },
     }
     const path = ['', 'api', method].join('/')
-    const url = new URL(path, location)
+    const url = new URL(path, 'https://shakerquiz-rating-5c3a.twc1.net')
     console.debug(url.href, json)
     return fetch(url, init)
   }
